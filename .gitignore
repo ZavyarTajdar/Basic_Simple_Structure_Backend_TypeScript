@@ -1,0 +1,87 @@
+# ===============================
+# Dependencies
+# ===============================
+node_modules/
+jspm_packages/
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===============================
+# Environment Variables
+# ===============================
+.env
+.env.*
+!.env.example
+
+# ===============================
+# Build / Compiled Output
+# ===============================
+dist/
+build/
+out/
+
+# ===============================
+# TypeScript
+# ===============================
+*.tsbuildinfo
+
+# ===============================
+# Coverage & Test Reports
+# ===============================
+coverage/
+.nyc_output/
+
+# ===============================
+# Cache & Temporary Files
+# ===============================
+.cache/
+.tmp/
+.temp/
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDE / Editor Settings
+# ===============================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.swp
+
+# ===============================
+# Package Manager Files
+# ===============================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===============================
+# Runtime Files
+# ===============================
+pids/
+*.pid
+*.pid.lock
+
+# ===============================
+# Optional Frameworks
+# ===============================
+.next/
+.nuxt/
+.svelte-kit/
+
+# ===============================
+# Docker
+# ===============================
+docker-data/
